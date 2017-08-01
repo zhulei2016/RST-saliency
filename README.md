@@ -1,8 +1,10 @@
 # RST-saliency
 This is the source code for our paper in ICCV 2017: 'Saliency Pattern Detection by Ranking Structured Trees'. Lei Zhu, Haibin Ling, Jin Wu, Huiping Deng and Jin Liu.
 
+# Requirements
+The project is build on MATLAB and is validated on both Windows 10 and Ubuntu 16.04 with CUDA 8. While in Windows system, visual studio 2013 is tested for generating the mex files.
+
 # Installation
-The project is validated on both Windows 10 and Ubuntu 16.04 with CUDA 8. Please configure the code as follows:
 * Download dependencies from [Baidu Yun](http://pan.baidu.com/s/1miE8B9I/) or [Google Drive](https://drive.google.com/drive/folders/0B6qAIWXkeAeLcWprbE8xRVdOcUE?usp=sharing).
 Please place both folders `data` and `toolboxes` into the root directory.
 
