@@ -11,7 +11,7 @@ Please download folders `data` and `toolboxes` and place both into the root dire
 * Put your own images in JPEG format into the folder `test_samples` and run the stript `main_custom.m`.
 
 # Citation
-If you find the code useful, please cite our work as
+If you find the code useful, please cite the following Bibtex code
 
 ```
 @inproceedings{RSTsaliency-zhul,
