@@ -1,0 +1,85 @@
+class        #labelled/total images    #total objects(bboxes)
+
+Airplane             947/1027                   1430
+Boat_Ship            868/1386                   1561
+Bridges              880/967                    920
+Bus                  313/349                    390
+Chair               509/2931                    1331
+Flags               707/1718                    987
+Hand                1123(920)/4061              1691(1405)
+Motorcycle           665/676                    1061
+Quadruped           1005/3596                   1363
+Telephones           439/560                    528
+total               7456(7253)/xxxxx            11262(10976)
+
+unduplicated/total imagesc
+7181/7253
+
+
+########################################################################
+selectivesearch "FAST":
+RECALL: 0.955
+
+MABO: 0.799
+
+AVG #boxes: 1840
+
+                    Avg Best Overlap            Recall
+ Airplane                0.7833                 0.9245
+ Boat_Ship               0.7156                 0.8571
+ Bridges                 0.8705                 0.9804
+ Bus                     0.8201                 0.9846
+ Chair                   0.7475                 0.9452
+ Flags                   0.8564                 0.9889
+ Hand                    0.8351                 0.9893
+ Motorcycle              0.7419                 0.9340
+ Quadruped               0.8324                 0.9743
+ Telephones              0.7882                 0.9735
+
+
+
+########################################################################
+flow "SIMPLE":
+RECALL: 0.952
+
+MABO:  0.798
+
+AVG #boxes: 2076
+
+                    Avg Best Overlap            Recall
+ Airplane                0.7672                 0.8972
+ Boat_Ship               0.7137                 0.8527
+ Bridges                 0.8702                 0.9728
+ Bus                     0.8235                 0.9949
+ Chair                   0.7459                 0.9444
+ Flags                   0.8488                 0.9889
+ Hand                    0.8408                 0.9858
+ Motorcycle              0.7488                 0.9369
+ Quadruped               0.8308                 0.9736
+ Telephones              0.7899                 0.9678
+
+
+
+########################################################################
+selectivesearch + flow "FAST":
+RECALL: 0.953
+
+MABO:  0.799
+
+AVG #boxes: 1939
+
+                    Avg Best Overlap            Recall
+ Airplane                0.7723                 0.9049
+ Boat_Ship               0.7167                 0.8571
+ Bridges                 0.8657                 0.9739
+ Bus                     0.8196                 0.9949
+ Chair                   0.7495                 0.9429
+ Flags                   0.8581                 0.9858
+ Hand                    0.8393                 0.9865
+ Motorcycle              0.7486                 0.9406
+ Quadruped               0.8309                 0.9736
+ Telephones              0.7853                 0.9678 
+
+
+
+########################################################################
