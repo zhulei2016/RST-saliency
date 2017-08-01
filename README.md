@@ -8,7 +8,7 @@ The project is build on MATLAB and is validated on both Windows 10 and Ubuntu 16
 * Download dependencies from [Baidu Yun](http://pan.baidu.com/s/1miE8B9I/) or [Google Drive](https://drive.google.com/drive/folders/0B6qAIWXkeAeLcWprbE8xRVdOcUE?usp=sharing).
 Please place both folders `data` and `toolboxes` into the root directory.
 
-* Compile `MatConvNet` in `toolboxes` if necessary. Please refer to the [official guide](http://www.vlfeat.org/matconvnet/install/) for the instruction.
+* Compile `MatConvNet` in `toolboxes` if it is necessary. Please refer to the [official guide](http://www.vlfeat.org/matconvnet/install/) for the instruction.
 
 * Put your own images in JPEG format into the folder `test_samples` and run the stript `main_custom.m`.
 
