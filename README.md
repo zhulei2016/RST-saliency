@@ -10,7 +10,7 @@ Please place both folders `data` and `toolboxes` into the root directory.
 
 * Compile `MatConvNet` in `toolboxes` if it is necessary. Please refer to the [official guide](http://www.vlfeat.org/matconvnet/install/) for the instruction.
 
-* Put your own images in JPEG format into the folder `test_samples` and run the stript `main_custom.m`.
+* Put your own images in JPEG format into the folder `test_samples` and run the stript `main_custom.m`. The saliency maps can be found in folder `test_samples_result`.
 
 # Citation
 If you find the code useful, please cite the following Bibtex code
