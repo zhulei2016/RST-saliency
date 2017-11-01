@@ -13,7 +13,7 @@ Please place both folders `data` and `toolboxes` into the root directory.
 * Put your own images in JPEG format into the folder `test_samples` and run the stript `main_custom.m`. The saliency maps can be found in folder `test_samples_result`.
 
 # Saliency maps
-you can also download the saliency maps from [Baidu Yun](http://pan.baidu.com/s/1jHM9koA/) (please wait for other sites).
+You can also download the saliency maps from [Baidu Yun](http://pan.baidu.com/s/1jHM9koA/) or [Google Drive](https://drive.google.com/open?id=0B6qAIWXkeAeLdUIzSjk5ZDFiZEE).
 
 # Citation
 If you find the code useful, please cite the following Bibtex code
